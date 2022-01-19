@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url("/img/win.jpg");
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.text-center{
+    text-align: center;
+
+}
+header h1{
+    background: rgba(255,255,255,.2);
+    padding: 20px 0;
+}
+main{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.block{
+    margin-top: 20px;
+    margin-right: 80px;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+
+.tetris-wrap{
+    width: 514px;
+    height: 750px;
+    background: url("/img/rama.png");
+    margin: 20px auto;
+    overflow: hidden;
+}
+.text-field,.user-result{
+    background: rgba(255,255,255,.7);
+    margin: 40px auto;
+    margin-right: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.user-result{
+    margin: 20px;
+}
+
+.start{
+    border: 3px solid #5993eb;
+    box-shadow: 2px 2px 4px #3e5066;
+    background-color: #fff;
+    display:block ;
+    width: 50%;
+    padding: 20px 30px;
+    margin: 0 auto ;
+background-image:url("/img/tetris.png") ;
+    background-repeat:no-repeat ;
+    background-position:110% 47%;
+}
+.rule{
+    margin-top: 30px;
+}
+.score-field{
+    font-size: 40px;
+    padding: 30px 0;
+}
+#tetris-field{
+    width: 470px;
+    height: 680px;
+    margin: 32px;
+}
+.white{
+    width: 30px;
+    height: 30px;
+    background: #d7d7db;
+    border-radius:100% ;
+    float: left;
+}
+
+.red{
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius:100% ;
+    float: left;
+}
+.grey{
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border-radius:100% ;
+    float: left;
+}
+.green{
+    width: 30px;
+    height: 30px;
+    background: green;
+    border-radius:100% ;
+    float: left;
+}
+.orange{
+    width: 30px;
+    height: 30px;
+    background: orange;
+    border-radius:100% ;
+    float: left;
+}
+.blue{
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius:100% ;
+    float: left;
+}
+
+
+
+
+
+
