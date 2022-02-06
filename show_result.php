@@ -9,7 +9,7 @@ $sql = "SELECT  * FROM score ORDER BY score DESC LIMIT 28";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    // output data of each row
+    
     $out ='<ol>';
     while($row = $result->fetch_assoc()) {
 
