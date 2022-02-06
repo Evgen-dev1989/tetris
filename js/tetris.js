@@ -2,11 +2,11 @@ window.onload = function () {
     let tetris = [];
     let tetrisField= document.querySelector('#tetris-field');
     let scoreField= document.querySelector('.score-field');
-    let color=[1,2,3,4,5]; // количество игровых цветов
+    let color=[1,2,3,4,5]; 
     let timer;
     let score = 0;
-    let flag // проверка следующего блока
-    //заполняем массив
+    let flag 
+    
 
     function init(){
         let x =15;
@@ -19,7 +19,7 @@ window.onload = function () {
         }
         //console.table(tetris);
     }
-    //рисуем игровое поле
+
     function draw(){
         let out ='';
         for (let i=0; i<tetris.length; i++){
@@ -44,8 +44,8 @@ window.onload = function () {
                 }
             }
         }
-        tetrisField.innerHTML = out; // перерисовка поля
-        scoreField.innerHTML = score; //Вывод очков
+        tetrisField.innerHTML = out; 
+        scoreField.innerHTML = score; 
     }
 
     function square(){
